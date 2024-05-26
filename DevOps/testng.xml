@@ -5,5 +5,5 @@
     <classes>
       <class name="Azure.DevOps.AppTest"/>
     </classes>
-  </test> <!-- Test t-->
+  </test> <!-- Tes t-->
 </suite> <!-- Suite -->
