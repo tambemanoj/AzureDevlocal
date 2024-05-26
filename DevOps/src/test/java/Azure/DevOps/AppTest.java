@@ -1,6 +1,6 @@
 package Azure.DevOps;
 
-import static org.junit.Assert.assertTrue;
+
 
 import org.testng.annotations.Test;
 
@@ -19,6 +19,6 @@ public class AppTest
     {
     	App ap = new App();
     	ap.Azure();
-        assertTrue( true );
+       
     }
 }
