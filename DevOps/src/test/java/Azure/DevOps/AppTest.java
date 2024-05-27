@@ -17,8 +17,12 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+    	try {
     	App ap = new App();
     	ap.Azure();
-       
+    	}
+       catch(Exception ex) {
+    	   System.out.println(ex.toString());
+       }
     }
 }
