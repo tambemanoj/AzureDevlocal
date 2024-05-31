@@ -6,6 +6,6 @@ public class Pipeline_Two {
 
 	@Test
 	public void run() {
-		System.out.prinln("Pipeline 2");
+		System.out.println("Pipeline 2");
 	}
 }
