@@ -14,17 +14,18 @@ public class App
 	ChromeDriver driver = null;
 	
 	App(){
-//		ChromeOptions options = new ChromeOptions();
-//		options.addArguments("--headless");
-//		// more options
-//		URL driverLocation = new URL("http://remote.webdriver.lives.here:4444/wd/hub");
-//		driver = new RemoteWebDriver(driverLocation, options);
 		driver = new ChromeDriver();
 	}
     public void Azure()
     {
         System.out.println( "Test cases started" );
         driver.get("https://www.meta.com/");
+        String a = driver.getTitle();
+        System.out.println(a);
+        if (a.equals("aa")) {
+        	System.out.println("title matched");
+        }
+        
         driver.quit();
     }
 }
