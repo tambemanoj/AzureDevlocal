@@ -25,6 +25,10 @@ public class App
         if (a.equals("aa")) {
         	System.out.println("title matched");
         }
+        driver.manage().window().maximize();
+        
+        driver.manage().window().fullscreen();
+        driver.quit();
         
         
     }
