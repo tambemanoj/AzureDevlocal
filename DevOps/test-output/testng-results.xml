@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T23:05:53 IST" name="Suite" finished-at="2024-10-14T23:06:01 IST" duration-ms="7484">
+  <suite started-at="2024-10-15T19:43:28 IST" name="Suite" finished-at="2024-10-15T19:43:41 IST" duration-ms="12716">
     <groups>
     </groups>
-    <test started-at="2024-10-14T23:05:53 IST" name="Test" finished-at="2024-10-14T23:06:01 IST" duration-ms="7484">
+    <test started-at="2024-10-15T19:43:28 IST" name="Test" finished-at="2024-10-15T19:43:41 IST" duration-ms="12716">
       <class name="Azure.DevOps.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:Azure.DevOps.AppTest@6dc17b83]" started-at="2024-10-14T23:05:53 IST" name="shouldAnswerWithTrue" finished-at="2024-10-14T23:06:01 IST" duration-ms="7401" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:Azure.DevOps.AppTest@6dc17b83]" started-at="2024-10-15T19:43:28 IST" name="shouldAnswerWithTrue" finished-at="2024-10-15T19:43:35 IST" duration-ms="7311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- Azure.DevOps.AppTest -->
       <class name="Azure.DevOps.Pipeline_Two">
-        <test-method signature="run()[pri:0, instance:Azure.DevOps.Pipeline_Two@47af7f3d]" started-at="2024-10-14T23:06:01 IST" name="run" finished-at="2024-10-14T23:06:01 IST" duration-ms="4" status="PASS">
+        <test-method signature="run()[pri:0, instance:Azure.DevOps.Pipeline_Two@47af7f3d]" started-at="2024-10-15T19:43:35 IST" name="run" finished-at="2024-10-15T19:43:41 IST" duration-ms="5374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
